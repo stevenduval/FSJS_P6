@@ -1,0 +1,17 @@
+{
+   "projects": [
+        {
+            "id": 0,
+            "project_name": "A Random Quote Generator",
+            "description": "A program that displays a randomly seleced quote each time the user clicks a button",
+            "technologies": ["HTML", "CSS", "JavaScript"],
+            "live_link": "https://google.com",
+            "github_link": "https://github.com/stevenduval/FSJS_P1",
+            "image_urls": {
+                    "main": "", 
+                    "img_one": "", 
+                    "img_two": ""
+            }
+        }
+   ] 
+}

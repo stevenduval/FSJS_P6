@@ -1,0 +1,16 @@
+extends layout.pug
+
+block content
+
+  - const { message, stack, statusCode } = err;
+
+   nav.nav
+    a(href='/')
+      span &larr;
+      |  Back
+
+  article.portfolio-error
+
+    img(src='/static/images/errors/warning.jpg' alt='')
+    h1= message
+    p The server encountered an internal server error or misconfiguration and was unable to complete your request.

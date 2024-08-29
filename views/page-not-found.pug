@@ -1,0 +1,16 @@
+extends layout.pug
+
+block content
+
+  - const { message, stack, statusCode } = err;
+
+   nav.nav
+    a(href='/')
+      span &larr;
+      |  Back
+
+  article.portfolio-error
+
+    img(src='/static/images/errors/sad.png' alt='')
+    h1= message
+    p The page you are looking for doesn't exist or has been moved.
