@@ -2,16 +2,48 @@
    "projects": [
         {
             "id": 0,
-            "project_name": "A Random Quote Generator",
-            "description": "A program that displays a randomly seleced quote each time the user clicks a button",
+            "project_name": "Random Quote Generator",
+            "description": "A program that displays a randomly seleced quote each time the user clicks a button.",
             "technologies": ["HTML", "CSS", "JavaScript"],
-            "live_link": "https://google.com",
+            "live_link": "https://stevenduval.github.io/FSJS_P1",
             "github_link": "https://github.com/stevenduval/FSJS_P1",
-            "image_urls": {
-                    "main": "", 
-                    "img_one": "", 
-                    "img_two": ""
-            }
+            "image_urls": ["/static/images/projects/FSJS-P1_550x550.png", "/static/images/projects/FSJS-P1_1200x550.png"]
+        },
+        {
+            "id": 1,
+            "project_name": "Data Pagination and Filtering",
+            "description": "A program that displays employees with the ability to filter the employees via the 'pages' at the bottom.  Users can also type in the searcch box and will be able to filter through all results via the 'pages' at the bottom.",
+            "technologies": ["HTML", "CSS", "JavaScript"],
+            "live_link": "https://stevenduval.github.io/FSJS_P2",
+            "github_link": "https://github.com/stevenduval/FSJS_P2",
+            "image_urls": ["/static/images/projects/FSJS-P2_550x550.png", "/static/images/projects/FSJS-P2_1200x550.png"]
+        },
+        {
+            "id": 2,
+            "project_name": "Interactive Form",
+            "description": "A form with interactivity and form validation.  When the user selects certain options, other options will appear or be greyed out.  The form is validated before submission.",
+            "technologies": ["HTML", "CSS", "JavaScript"],
+            "live_link": "https://stevenduval.github.io/FSJS_P3",
+            "github_link": "https://github.com/stevenduval/FSJS_P3",
+            "image_urls": ["/static/images/projects/FSJS-P3_550x550.png", "/static/images/projects/FSJS-P3_1200x550.png"]
+        },
+        {
+            "id": 3,
+            "project_name": "OOP Game Show App",
+            "description": "An object oriented Game Show App. The user starts a new game and tries to guess the phrase. You can either click the letters on the screen or type them on your keyboard.  If you cannot guess the phrase within 5 tries, the game will end.",
+            "technologies": ["HTML", "CSS", "JavaScript"],
+            "live_link": "https://stevenduval.github.io/FSJS_P4",
+            "github_link": "https://github.com/stevenduval/FSJS_P4",
+            "image_urls": ["/static/images/projects/FSJS-P4_550x550.png", "/static/images/projects//FSJS-P4_1200x550.png"]
+        },
+        {
+            "id": 4,
+            "project_name": "Public API Requests",
+            "description": "A program that fetches and displays 12 random employees from the randomuser.me api. When clicking on the individual employee a modal window will appear. You can also search for employees.",
+            "technologies": ["HTML", "CSS", "JavaScript"],
+            "live_link": "https://stevenduval.github.io/FSJS_P5",
+            "github_link": "https://github.com/stevenduval/FSJS_P5",
+            "image_urls": ["/static/images/projects/FSJS-P5_550x550.png", "/static/images/projects/FSJS-P5_1200x550.png"]
         }
    ] 
 }

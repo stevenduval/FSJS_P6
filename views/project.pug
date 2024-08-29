@@ -2,7 +2,7 @@ extends layout.pug
 
 block content
 
-  - const { project_name, description, github_link, live_link, technologies } = project
+  - const { project_name, description, github_link, live_link, image_urls, technologies } = project
 
   nav.nav
     a(href='/')
@@ -13,13 +13,9 @@ block content
     .inner-wrapper.flex-row-wrap.two-col
       .project-info-box.box
 
-        //- Use the info in your data file and the comments below to complete this template
+        h1 #{project_name}
 
-        //- Use interpolation to dynamically add the project title
-        h1= project_name
-
-        //- Use interpolation to dynamically add the project description
-        p= description
+        p #{description}
 
       .project-tech-links-box.box
         h6 Technologies
@@ -27,16 +23,12 @@ block content
           each technology in technologies
             li= technology
 
-        //- Add the href values to the links below
         a.btn-link(href=`${live_link}` target='_blank') Live Demo
         a.btn-link(href=`${github_link}` target='_blank') GitHub Repo
 
     .project-img-box.box
 
-      //- Replace the URLs in the src attributes below with interpolated template literals to dynamically add your project images, and add descriptions to the alt attributes
-      img.project-img(src='https://placehold.it/1200x550', alt='')
-      img.project-img(src='https://placehold.it/1200x550', alt='')
-      img.project-img(src='https://placehold.it/1200x550', alt='')
+      img.project-img(src=`${image_urls[1]}`, alt=`Screen shot of ${project_name}`)
 
     nav.nav
       a(href='/')

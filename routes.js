@@ -39,23 +39,21 @@ router.use((req, res, next) => {
     const err = new Error();
     // set status and message for error
     err.statusCode = 404;
-    err.message = 'Page not found';
-    // log error to the console
-    console.error(err.statusCode, err.message);
+    err.message = 'not found';
     // pass error to next so it can be handled
     next(err);
 })
 
-// middleware to catch errors and take action on them
+// middleware to catch the errors and take action on them
 router.use((err, req, res, next) => {
     // if its is not a 404 error create 500 error
     if ( err.statusCode != 404 ) {
         // set statuscode and message
         err.statusCode = 500;
         err.message = 'Internal Server Error';
-        // log error to the console
-        console.error(err.statusCode, err.message);
     }
+    // log error to the console
+    console.error(err.statusCode, err.message);
     // set locals for error page
     res.locals.err = err;
     // render appropriate error pages

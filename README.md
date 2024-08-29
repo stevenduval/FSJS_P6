@@ -7,6 +7,12 @@ Utilizing Node, Express and Pug, this project creates a portfolio website that s
 ### Extras
 In the terminal, use 'npm start' to initialize the app.
 
+Changed font to Montserrat.
+
+Changed side bar background to a dark navy.
+
+Add box shadow on hover of thumbnails on home page.
+
 ### Installing
 This project does utilize node, so you will need to ensure Node is installed on your machine (link is below).  Once you have installed Node you will need to install the project dependencies that are referenced in the package.json file.
 

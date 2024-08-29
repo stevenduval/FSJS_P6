@@ -14,16 +14,16 @@ html(lang="en" dir="ltr")
       .sidebar-info-box
         br
         .thumbnail-box
-          img.thumbnail(src='https://placehold.it/550x350', alt='')
+          img.thumbnail(src='/static/images/me.png', alt='')
         .dev-intro-box
 
-          //- Replace with your name
           h5 Steven Duval
 
-          //- Replace with description of who you are, what you do, and why you are so awesome
-          p Description
+          p
+            | I am Steven Duval, a Front-End Developer.  
+            | I am looking forward to pursuing a career in Full Stack Development.
+            | Take a look around! I have posted a few of the past projects that I have been working on. 
 
-          //- Add path from your '/about' route handler to the href below
           a(href='/about') Learn More &rarr;
 
     .wrapper
@@ -31,8 +31,7 @@ html(lang="en" dir="ltr")
         .header-info-box
           button#menu-icon.menu-icon(type='button' data-toggle='my-info')
 
-          //- Replace with your name — this is for the mobile layout
-          span Name
+          span Steven Duval
 
       block content
 
